@@ -1,0 +1,49 @@
+header{
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    border: 5px,solid,rgb(85, 84, 84);
+
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+}
+
+a{
+    margin-right: 200px;
+}
+
+input{
+    color: black;
+}
+
+}
+
+#footbar{
+    height: 60px;
+    background-color: #0f1111;
+    border: 5px,solid,gray;
+    color: white;
+    text-align: center;
+}
+
+
+#content{
+    height: 620px;
+    width: 1468px;
+    border: solid,1px,black;
+    background: linear-gradient(rgb(247, 240, 227),rgb(177, 163, 151))
+}
