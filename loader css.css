@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+div{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px,solid,rgb(253, 252, 252);
+    border-top-color: blue;
+
+    animation: loader 1s ease-in-out infinite normal;
+}
+
+@keyframes loader{
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+}
+
